@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React project to test out how to setup a basic price calculator and make components connect to each other.
 
 ## Available Scripts
 
