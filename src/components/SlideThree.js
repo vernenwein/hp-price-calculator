@@ -14,7 +14,7 @@ const SlideThree = (props) => {
   };
 
   let text = "";
-  if (hasLMS) {
+  if (hasLMS === "true") {
     text =
       "You have stated that you have a LMS which leads to a fixed price of XXX. Please fill out the form below and we'll get in touch with you to discuss an individual offer.";
   } else if (numOfEmployees === 3000) {

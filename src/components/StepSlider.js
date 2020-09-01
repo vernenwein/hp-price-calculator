@@ -25,7 +25,7 @@ const StepSlider = (props) => {
   return (
     <Slider ref={refSlider} {...sliderSettings}>
       <SlideOne hasLMS={hasLMS} setHasLMS={setHasLMS} />
-      {hasLMS === false && (
+      {hasLMS === "false" && (
         <SlideTwo
           numOfEmployees={numOfEmployees}
           setNumOfEmployees={setNumOfEmployees}

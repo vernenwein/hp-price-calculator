@@ -17,6 +17,7 @@ const SlideTwo = (props) => {
   const marks = [
     {
       value: 50,
+      label: 50,
     },
     {
       value: 100,
@@ -35,6 +36,7 @@ const SlideTwo = (props) => {
     },
     {
       value: 3000,
+      label: 3000,
     },
   ];
 
